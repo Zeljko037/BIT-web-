@@ -1,0 +1,41 @@
+@font-face {
+    font-family:Lobster-Regular ;
+    src: url('./fond/Lobster-Regular.ttf');
+}
+body {
+    font-weight: 400;
+    font-size: 18px;
+}
+h1 {
+    font-family:'Courier New', Courier, monospace
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.prviPasus{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.treciPasus{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p span{
+    font-style: italic;
+    font-weight: 600;
+}
+.main {
+    font-family:'Lobster-Regular';
+
+}
+.second {
+    font-style: italic;
+}

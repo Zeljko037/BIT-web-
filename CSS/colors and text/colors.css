@@ -1,0 +1,26 @@
+.prvi   {
+    color: darkturquoise;
+    background-color: aquamarine;
+}
+.drugi {
+    color: rgb(0, 206, 209);
+    background-color: black;
+    opacity: 50%;
+}
+.treci {
+    color: #00ced1;
+    background-color: darkkhaki;
+}
+.slika {
+    opacity: 0.5;
+}
+ .drugaSlika {
+    color:rgba(0, 0, 0, 1);
+ }
+
+ .prvaBoja {
+    background-color: aliceblue;
+ }
+ .drugaBoja {
+    background-color: hotpink;
+ }
