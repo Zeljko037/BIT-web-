@@ -1,0 +1,70 @@
+@font-face {
+    font-family:Rye-Regular ;
+    src: url('./fond/Rye-Regular.ttf');
+}
+.prviDiv p {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+}
+
+.drugiDiv p{
+    background-color: red;
+    width: 600px;
+    height: 300px;.
+    max-height: 200px;
+    overflow: auto;
+    
+}
+.treciDiv p{
+    background-color: yellow;
+    border: 5px red dashed;
+
+    
+}
+
+.trecip2 {
+    border: 5px green solid !important;
+}
+
+
+.cetvrtip1 {
+    /* padding: 50px;
+    width: 300px;
+    margin: 50px; */
+    margin-right: 20px;
+    padding: 0;
+}
+.cetvrtip2 {
+    /* padding-top: 50px;
+    width: 400px;
+    margin: 50px auto; */
+    margin-right: 20px;
+    padding: 0;
+    display: none;
+}
+.cetvrtip3 {
+    /* padding: 50px;
+    width: 200px;
+    margin-left: 200px; */
+    margin-right: 20px;
+    padding: 0;
+    visibility: hidden;
+}
+
+
+
+.main  {
+    width: 960px;
+    margin: 50px auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #29ba54;
+    color: rgb(125, 85, 37);
+    font-family: Rye-Regular;
+    -webkit-box-shadow: -34px -30px 13px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -34px -30px 13px -17px rgba(0,0,0,0.75);
+    box-shadow: -34px -30px 13px -17px rgba(0,0,0,0.75);
+    border-radius: 30px;
+}

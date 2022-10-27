@@ -1,0 +1,22 @@
+p {
+    font-size: 22px;
+}
+a {
+    color:skyblue;
+    text-shadow: 2px 3px rgb(222, 222, 121);
+
+}
+a:link{
+   color:red;
+    
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: blue;
+}
