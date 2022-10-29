@@ -116,7 +116,7 @@ length.
 Input arrays: [4, 5, 6, 2], [3, 8, 11, 9]
 Output array: [4, 3, 5, 8, 6, 11, 2, 9]*/
 
-//  nemam resenje zadatka
+//  nemam resenje 
 
 /*8. Write a program that concatenates two arrays.
 Input arrays: [4, 5, 6, 2], [3, 8, 11, 9]
@@ -149,17 +149,17 @@ the value of the position is greater than the array length, print the error mess
 Input: e = 78, p = 3, a = [2, -2, 33, 12, 5, 8]
 Output: [2, -2, 33, 78, 12, 5, 8]*/
 
-// var a = [2, -2, 33, 12, 5, 8];
-// var e = 78;
-// var p = 3;
-// for(var i=0;i<a.length;i++){
-//     if(p>a.length){
-//         console.log('ERROR. Postion is bigger than length')
-//     }
-//     a[p]=e;
+var a = [2, -2, 33, 12, 5, 8];
+var e = 78;
+var p = 3;
+for(var i=0;i<=a.length;i++){
+    if(p>a.length){
+        console.log('ERROR. Postion is bigger than length')
+    }
+    a[p]=e;
 
-// }
-// console.log(a);
+}
+console.log(a);
 
 
 

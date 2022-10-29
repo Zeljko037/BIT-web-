@@ -1,0 +1,24 @@
+td {
+    padding: 10px;
+}
+td img {
+    width: 100px;
+    height: 110px;
+}
+th {
+    background-color: red;
+    color: white;
+}
+table {
+    margin: 0 auto;
+    width: 60%;
+}
+tr:hover {
+    background-color: yellow;
+}
+tr:nth-child(odd) {
+    background: #c7c7ca;
+}
+tr:nth-child(even) {
+    background: #f4f6fa;
+}

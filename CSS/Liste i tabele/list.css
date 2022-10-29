@@ -1,0 +1,23 @@
+.firstUl {
+    list-style-type: circle;
+}
+.secondUl {
+    list-style-type: square;
+}
+.firstOl {
+    list-style-type: upper-alpha;
+}
+.secondOl {
+    list-style-type: upper-roman;
+}
+
+#thirdList {
+    width: 200px;
+    list-style-image: url(./smiley-smile\ 10px.gif);
+}
+.listaJedan {
+    list-style-position: outside;
+}
+.listaDva {
+    list-style-position: inside;
+}
