@@ -1,0 +1,74 @@
+.divPrvi {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 23, 23);
+}
+
+.divDrugi {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(227, 180, 23);
+}
+
+.divTreci {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 13, 168);
+}
+
+.divCetvrti {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 23, 23);
+    position: relative;
+}
+
+.divPeti {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(227, 180, 23);
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+
+}
+
+.divSesti {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 13, 168);
+    position: relative;
+    left:200px;
+    bottom: 200px;
+}
+
+.divSedmi {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 23, 23);
+    position: relative;
+    left: 1300px;
+    z-index: 2;
+
+}
+
+.divOsmi {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(227, 180, 23);
+    position: relative;
+    left: 1200px;
+    bottom: 100px;
+    z-index: 1;
+
+}
+
+.divDeveti {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 13, 168);
+    position: relative;
+    left: 1100px;
+    bottom: 200px;
+    z-index: -1;
+}

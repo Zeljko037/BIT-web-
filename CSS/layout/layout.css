@@ -1,0 +1,28 @@
+.prvaSlika {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.drugaSlika {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 600px;
+    height: 300px;
+}
+.trecaSlika {
+
+
+    width: 600px;
+    height: 300px;
+}
+a {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
