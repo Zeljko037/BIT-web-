@@ -1,0 +1,16 @@
+.divPrvi img {
+    height: 200px;
+    float: right;
+
+}
+.divDrugi img {
+    width: 200px;
+    float: left;
+
+}
+.divTreci img {
+    height: 200px;
+    width: 200px;
+    float: center;
+
+}
