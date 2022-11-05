@@ -28,6 +28,11 @@ img {
 
 .bilbord {
     margin: 0 auto;
+ 
+}
+.bilbord img{
+    height: 400px;
+ 
 }
 
 
