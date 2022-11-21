@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding-bottom: 0;
+}
+.wrap {
+ 
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.naslov {
+    text-align: center;
+    margin-top: 7%;
+}
+.naslov h1 {
+    display: inline;
+
+
+}
+
+.textPrvi {
+    border-top: 5px solid #777777;
+    border-bottom: 5px solid #777777;
+    border-left: 5px solid #777777;
+    color: #ff9801;
+}
+.textDrugi {
+    color: #777777;
+}
+
+.navigacija {
+    font-size: 3vw;
+    flex-direction: row;
+    background-color: #7fc2f7;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 4%;
+    padding: 1px 0;
+}
+
+
+
+.mainPic {
+   position: relative;
+}
+
+
+.mainPic img{
+    width: 100%;
+    height: auto;
+}
+
+.mainText {
+    font-size: 4vw;
+    position: absolute;
+    top: 25%;
+    margin-left: 12%;
+    margin-right: 12%;
+
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.mainText button {
+    font-size: 2vw;
+    background-color: #3260F6;
+    border-radius: 15px;
+    border: none;
+    padding: 6px;
+}
+
+
+.mainContent h2 {
+    text-align: center;
+}
+.sadrzaj {
+    margin: 4%;
+}
+.sadrzaj ul {
+    list-style-image: url(./picture/arrow_bullet.png);
+    padding-inline-start: 0;
+    list-style-position: inside;
+  
+}
+.sadrzaj li {
+   
+  padding-top: 5%;
+
+}
+
+.sadrzaj h4{
+    color: #4fa1e1;
+    
+
+}
+.sadrzaj img{
+    width: 100%;
+    height: auto;
+}
+
+.sadrzaj li img{
+    width: auto;
+    height: auto;
+
+}
+.comment {
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.comment div{
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 150px;
+    background-color: #7fc2f7;
+    margin-top: 4%;
+    
+}
+
+.comment img {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    padding: 2px;
+    border: 3px solid white;
+    float: left;
+
+
+}
+.comment h3 {
+    float: left;
+    padding-left: 5%;
+    
+}
+.comment p {
+    clear: left;
+    color: white;
+}
+
+#demo {
+    
+    transform: rotate(45deg);
+    text-align: center;
+    width: 20px;
+    align-items: center;
+
+    
+    } 
+
+.kocka{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+
+}
+.kocka div {
+    width: 10%;
+}
+#naslov {
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.contact1 {
+    background-color: #3add9a;
+    width: 50%;
+    height: 130px;
+
+}
+
+.contact2 {
+    background-color: #ff4f81;
+    width: 50%;
+    height: 130px;
+    
+}
+.contact3 {
+    background-color: #3369e6;
+    width: 50%;
+    height: 130px;
+}
+.contact p{
+    display: block;
+}
+.contact4 {
+    background-color: #7fc2f7;
+    width: 50%;
+    height: 130px;
+}
+
+.contact img{
+    width: 50%;
+    height: auto;
+}
+.maps {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mail {
+    width: 100%;
+    align-items: center;
+    margin-right: 4%;
+    
+}
+form {
+    margin: 5%;
+}
+
+input {
+    width: 100%;
+    align-items: center;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+button {
+    background-color: #ff9801;
+    color: white;
+    border: 0;
+}
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 8% 0;
+
+
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+footer a{
+margin-right: 10px;
+
+}
+

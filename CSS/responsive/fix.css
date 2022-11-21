@@ -1,0 +1,26 @@
+.main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.leftDiv {
+    float: left;
+ 
+    width: 450px;
+    height: 100%;
+}
+
+.rightDiv {
+    float: right;
+    width: 450px;
+    padding-left: 20px;
+    border-left: 3px solid black;
+}
+
+header {
+    width: 100%;
+   
+}
+header img {
+    float: left;
+}

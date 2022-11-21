@@ -1,0 +1,26 @@
+.main {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.leftDiv {
+  
+    flex: 1;
+    width: 450px;
+    height: 100%;
+}
+
+.rightDiv {
+    flex: 1;
+    width: 450px;
+    padding-left: 20px;
+    border-left: 3px solid black;
+}
+
+.header {
+    flex-direction: ;
+} 
