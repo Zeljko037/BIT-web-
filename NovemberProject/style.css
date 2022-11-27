@@ -1,26 +1,130 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url(./fonts/Roboto-Black.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url(./fonts/Roboto-Italic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url(./fonts/Roboto-Bold.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url(./fonts/Roboto-BoldItalic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url(./fonts/Roboto-Italic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url(./fonts/Roboto-Light.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url(./fonts/Roboto-LightItalic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url(./fonts/Roboto-Medium.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url(./fonts/Roboto-MediumItalic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url(./fonts/Roboto-Regular.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url(./fonts/Roboto-Thin.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url(./fonts/Roboto-ThinItalic.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
     padding-bottom: 0;
-}
-.wrap {
- 
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
 }
+
 a {
     color: white;
     text-decoration: none;
+    font-family: 'robotoblack';
 }
-.naslov {
+
+p {
+    font-family: 'robotoregular';
+
+}
+
+h1 {
+    font-family: 'robotoblack';
+}
+
+h2 {
+    font-family: robotolight;
+}
+
+.linija {
+    border-bottom: 2px solid black;
+}
+
+.logo {
     text-align: center;
     margin-top: 7%;
+
 }
-.naslov h1 {
+
+.naslov {
+    text-align: center;
+}
+
+.logo h1 {
     display: inline;
-
-
 }
 
 .textPrvi {
@@ -29,12 +133,13 @@ a {
     border-left: 5px solid #777777;
     color: #ff9801;
 }
+
 .textDrugi {
     color: #777777;
 }
 
 .navigacija {
-    font-size: 3vw;
+    font-size: 0.7rem;
     flex-direction: row;
     background-color: #7fc2f7;
     color: white;
@@ -47,86 +152,99 @@ a {
 
 
 .mainPic {
-   position: relative;
+    position: relative;
 }
 
 
-.mainPic img{
+.mainPic img {
     width: 100%;
     height: auto;
 }
 
 .mainText {
-    font-size: 4vw;
+    width: 100%;
+    font-size: 1rem;
     position: absolute;
     top: 25%;
-    margin-left: 12%;
-    margin-right: 12%;
-
     text-align: center;
     justify-content: center;
     color: white;
+
+}
+
+.mainText p {
+    font-family: robotomedium;
 }
 
 .mainText button {
-    font-size: 2vw;
+    /* font-size: 2vw; */
     background-color: #3260F6;
     border-radius: 15px;
     border: none;
-    padding: 6px;
+    padding: 6px 12px;
 }
+
+button a {
+    font-family: robotolight;
+    font-size: 0.8rem;
+}
+
 
 
 .mainContent h2 {
     text-align: center;
 }
+
 .sadrzaj {
     margin: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .sadrzaj ul {
-    list-style-image: url(./picture/arrow_bullet.png);
+    list-style-image: url(./picture/images1.png);
     padding-inline-start: 0;
     list-style-position: inside;
-  
+
 }
+
 .sadrzaj li {
-   
-  padding-top: 5%;
+    color: #716f6f;
+    font-family: robotoregular;
+    padding-top: 5%;
+
 
 }
 
-.sadrzaj h4{
+.sadrzaj h3 {
     color: #4fa1e1;
-    
-
+    font-family: robotolight;
+    margin-top: 0;
 }
-.sadrzaj img{
+
+.sadrzaj img {
     width: 100%;
     height: auto;
 }
 
-.sadrzaj li img{
-    width: auto;
-    height: auto;
-
-}
 .comment {
     margin: 7%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-
-
 }
 
 
-.comment div{
+.comment div {
     padding-left: 3%;
     padding-top: 4%;
     padding-bottom: 4%;
     height: 150px;
     background-color: #7fc2f7;
     margin-top: 4%;
-    
+
 }
 
 .comment img {
@@ -139,38 +257,45 @@ a {
 
 
 }
+
 .comment h3 {
     float: left;
     padding-left: 5%;
-    
+    font-family: robotolight;
+
+
 }
+
+.comment i {
+    color: white;
+    font-size: 15px;
+
+}
+
 .comment p {
     clear: left;
     color: white;
 }
 
 #demo {
-    
     transform: rotate(45deg);
     text-align: center;
     width: 20px;
     align-items: center;
+}
 
-    
-    } 
-
-.kocka{
+.kocka {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: black !important;
-
 }
+
 .kocka div {
     width: 10%;
 }
-#naslov {
+
+#naslovna {
     margin-bottom: 0;
     text-align: center;
 
@@ -182,46 +307,53 @@ a {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    align-items: center;
+    align-items:center;
     color: white;
-    padding-bottom: 4%;
     margin-top: 2%;
-    text-align: center;
 }
+
+
+
+
 
 .contact1 {
     background-color: #3add9a;
     width: 50%;
     height: 130px;
-
 }
 
 .contact2 {
     background-color: #ff4f81;
     width: 50%;
     height: 130px;
-    
 }
+
 .contact3 {
     background-color: #3369e6;
     width: 50%;
     height: 130px;
 }
-.contact p{
-    display: block;
+
+.contact p {
+    font-size: 0.9rem;
 }
+.contact i {
+    padding-right: 8px;
+}
+
 .contact4 {
     background-color: #7fc2f7;
     width: 50%;
     height: 130px;
 }
 
-.contact img{
-    width: 50%;
-    height: auto;
+.contact img {
+    width: 100%;
+    height: 100%;
 }
+
 .maps {
     width: 100%;
     margin: 0;
@@ -229,45 +361,224 @@ a {
 }
 
 .mail {
+
     width: 100%;
     align-items: center;
-    margin-right: 4%;
-    
+    margin-bottom: 3%;
+
 }
+
+.unos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 form {
-    margin: 5%;
+margin: auto;
+    width: 90%;
 }
 
 input {
     width: 100%;
-    align-items: center;
+    padding-right: 0;
+    margin-top: 4%;
 }
+
 textarea {
     width: 100%;
     height: 100px;
+    margin-top: 4%;
 }
+
 button {
     background-color: #ff9801;
     color: white;
     border: 0;
+    padding: 5px;
+
 }
+
 footer {
     background-color: #212121;
     color: white;
     padding: 8% 0;
-
-
+    font-size: 0.8rem;
 }
+
+
 footer div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 4vw;
-}
-
-footer a{
-margin-right: 10px;
 
 }
 
+footer a {
+    margin-right: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        width: 100%;
+    }
+
+    .logo {
+
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-left: 15px;
+
+    }
+
+    .textPrvi {
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        border-left: 5px solid white;
+        color: #ff9801;
+        font-size: 30px;
+
+    }
+
+    .textDrugi {
+        color: white;
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 30px;
+
+    }
+
+    .navigacija {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        background-color: transparent;
+        position: relative;
+        z-index: 1;
+
+        justify-content: end;
+        text-align: center;
+
+    }
+
+    .navigacija p {
+        font-size: 12px;
+        margin-right: 10px;
+
+    }
+
+    .navigacija a {
+        margin-right: 10px
+    }
+
+    .mainText {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+
+
+    .sadrzajJedan {
+        width: 50%;
+    }
+
+    .sadrzajDva {
+        width: 50%;
+    }
+
+
+    .sadrzaj {
+        margin: 4%;
+        flex-direction: row;
+    }
+
+
+    .comment {
+
+        flex-direction: row;
+    }
+
+    .comment div {
+        width: 45%;
+        margin-right: 10px;
+    }
+
+    .contact1,
+    .contact2,
+    .contact3,
+    .contact4 {
+        height: 200px;
+    }
+    .contact p {
+        font-size: 1.1rem;
+    }
+
+    .maps {
+        height: 300px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .mail {
+        flex-direction: row;
+    }
+
+    .unos {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .unos input {
+        width: 30%;
+
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .sadrzaj {
+        flex-direction: row;
+
+        justify-content: center;
+    }
+
+    .sadrzaj div {
+        width: 30%;
+        margin-right: 15px;
+    }
+    
+
+    .comment {
+        flex-direction: row;
+    }
+
+    .comment div {
+        width: 29%;
+    }
+
+    .contact {
+        flex-direction: row;
+
+    }
+    .contact div {
+        width: 25%;
+    }
+    .mail {
+        width: 70%;
+        margin:auto;
+
+    }
+
+}
