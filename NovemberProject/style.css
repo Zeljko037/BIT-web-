@@ -201,6 +201,7 @@ button a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .sadrzaj ul {
@@ -499,6 +500,7 @@ footer a {
 
     .sadrzaj {
         margin: 4%;
+        margin-bottom: 0;
         flex-direction: row;
     }
 

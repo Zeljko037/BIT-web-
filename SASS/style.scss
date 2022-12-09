@@ -1,22 +1,59 @@
-$navbar:red;
-$fontstack: helvetic;
-$back: lime;
+$font-stack: helvetica;
+$back:lime;
+$font-color: red;
 
 @mixin border-box($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
     border-radius: $radius;
-    
-}
-.navbar {
-    width: 200px;
-    height: 300px;
-    color: $navbar;
-    background-color: $back;
-    @include: border-box(10px);
-    p {
-        background-color: white;
-    }
 }
 
+.navbar {
+    margin: 0 auto;
+    width: 500px;
+    background-color: $back;
+    color:$font-color;
+    h1{
+        text-align: center;
+    }
+    @include border-box(10px);
+    padding: 5px;
+
+}
+
+.message {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.upozorenje{
+    @extend .message;
+    color:$font-color;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+$parentWidth: 400px;
+$minWidth: 40px;
+.parent {
+    width: $parentWidth;
+    height: 200px;
+    display: flex;
+}
+$minWidth: 40px;
+@function calculateWidth($n) {
+    @return $minWidth + $n;
+}
+
+
+@for $i from 1 through 3 {
+    .item-#{$i} {
+        width: calculateWidth($i);
+        height: 100%;
+        margin: 0 10px;
+        background-color: $back;
+    }
+}

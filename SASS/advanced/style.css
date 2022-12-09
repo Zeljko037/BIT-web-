@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*● Create a page that contains a list of four links to local newspapers
+● Create a sass file that removes underlines from all links and that sets the background
+color of active links to yellow, visited links to orange and links that is not yet clicked to
+green; links of a class ‘important’ should be written using bold letters*/
+a {
+  text-decoration: none;
+  font-weight: bold !important;
+}
+a:active {
+  background-color: yellow;
+}
+a:visited {
+  background-color: orange;
+}
+a::before {
+  background-color: green;
+}
+
+/*● Create a page with four paragraphs
+● The first paragraph should have font size 16px, and all others should have font size
+which is 2px bigger than the previous one*/
+.prva-1 {
+  font-size: 16px;
+  background-color: tomato;
+}
+
+.prva-2 {
+  font-size: 18px;
+  background-color: green;
+}
+
+.prva-3 {
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.prva-4 {
+  font-size: 22px;
+  background-color: blueviolet;
+}
+
+.example1 {
+  box-sizing: content-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid blue;
+}
+
+.example2 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid blue;
+}
+
+#example1 {
+  box-sizing: content-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid blue;
+}
+
+#example2 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid blue;
+}
+
+/*● Use the example from the last exercise
+● Create a mixin that, depending on the integer passed to it (1, 2, 3 or 4), sets the color of
+the background to different colors
+● Use this mixin for styling each of the four paragraphs, passing to the mixin the ordinal
+number of the paragraph
+●/
+
+/*● Create a function that translates content-box width to border-box width of the element
+● Create a page with two equal-sized paragraphs: dimensions of the first one should be
+given using content-box size, and the second one using border-box size. To achieve
+this, use the function written above*//*# sourceMappingURL=style.css.map */
