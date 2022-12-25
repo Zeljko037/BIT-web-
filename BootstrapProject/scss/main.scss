@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../fonts/Lato-Bold.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-black-webfont.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@import "_contact";
+@import "_global";
+@import "_masthead";
+@import "_mixins";
+@import "_navbar";
+@import "_portfolio";
+@import "_variables";
+
+.header-footer {
+  background-color: $headerBg;
+}
+
+.kocka {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.linija {
+  border-bottom: 3px solid $secondText;
+  width: 70px !important;
+}
+
+#demo {
+  text-align: center;
+  width: 20px;
+  align-items: center;
+
+}
+
+.background-1 {
+  background-color: $main;
+
+  .linija {
+    border-bottom: 3px solid $maintext;
+    width: 70px;
+  }
+
+  color: $maintext;
+
+  i {
+    color: $maintext;
+  }
+
+}
+
+.row img {
+  width: auto;
+  height: auto;
+}
+
+.row-1 img {
+  max-width: 200px;
+}
+
+
+
+@media only screen and (min-width: 576px) {
+  .menu {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .portfolio {
+    width: 80%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    background-color: $headerBg;
+  }
+
+  .h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  .about {
+    width: 50%;
+  }
+
+  .contact {
+    width: 50%;
+  }
+
+  .portfolio {
+    width: 80%;
+  }
+
+  .footer {
+    width: 80%;
+  }
+
+}

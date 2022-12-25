@@ -1,0 +1,14 @@
+.circle {
+    width: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.contact {
+    label {
+        color: $input;
+    }
+}
