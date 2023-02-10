@@ -1,0 +1,22 @@
+.secondDiv {
+    background-color: aqua;
+}
+
+.liBackground {
+    background-color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    background-color: green;
+}
+
+.uppercase2 {
+    text-transform: uppercase;
+    background-color: blue;
+}
+
+.uppercase3 {
+    text-transform: uppercase;
+    background-color: yellow;
+}

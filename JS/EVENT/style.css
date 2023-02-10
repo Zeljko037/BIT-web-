@@ -1,0 +1,15 @@
+#box {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border: solid 1px green;
+}
+button {
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}

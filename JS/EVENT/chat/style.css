@@ -1,0 +1,26 @@
+#main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+  
+
+}
+#firstChat {
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+    margin-right: 20px;
+    
+    
+}
+#secondChat {
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+
+}
+input, button {
+    position: absolute;
+    bottom: 150px;
+}
