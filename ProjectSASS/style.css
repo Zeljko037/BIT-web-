@@ -375,9 +375,9 @@ footer a {
     margin-right: 10px;
   }
   .contact-1,
-.contact-2,
-.contact-3,
-.contact-4 {
+  .contact-2,
+  .contact-3,
+  .contact-4 {
     height: 200px !important;
   }
   .contact p {

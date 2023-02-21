@@ -2,11 +2,11 @@ $(document).ready(function () {
     var request = new XMLHttpRequest();
     request.open('GET', 'note.xml', true);
     request.onload = function (event) {
-       // console.log(request.status);
+       console.log(request.status);
         var response = request.responseXML;
        // console.log(response);
         var reminder = response.querySelector('heading');
-//console.log(reminder);
+console.log(reminder);
     }
 
     request.send();

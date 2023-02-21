@@ -1,0 +1,32 @@
+.container {
+    margin:0;
+    width: 100%;
+}
+header {
+    background-image: url("../header\ background\ book.jpg");
+
+    height: 300px;
+}
+.passed {
+    background-color: #33b8b4;
+    width: 300px;
+    height: 35px;
+}
+.failed {
+    background-color: #fc524f;
+    width: 300px;
+    height: 35px;
+}
+.main {
+    margin: auto 0;
+}
+#passedScore {
+    width: 300px;
+}
+#passedFailed {
+    width: 300px;
+
+}
+ol {
+    list-style-type: none;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url(../fonts/Roboto-Black.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url(../fonts/Roboto-Medium.ttf) format('woff2'), url('assets/fonts/webfontkit/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$mainFont:'robotoblack';
+$textFont:'robotomedium';
+
+
+.mainContent {
+    margin: auto 0;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 3px;
+}
+
+.ui-widget{
+    background-color: #fff;
+    cursor: pointer;
+    
+    
+}
+
+h1{
+    font-family: $mainFont;
+    
+}
+
+body{
+font-family: $textFont;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+
